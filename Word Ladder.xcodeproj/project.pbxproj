@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF99D9672AA8F74600D14130 /* Word_LadderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99D9662AA8F74600D14130 /* Word_LadderApp.swift */; };
+		AF99D9692AA8F74600D14130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99D9682AA8F74600D14130 /* ContentView.swift */; };
+		AF99D96B2AA8F74700D14130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF99D96A2AA8F74700D14130 /* Assets.xcassets */; };
+		AF99D96F2AA8F74700D14130 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF99D96E2AA8F74700D14130 /* Preview Assets.xcassets */; };
+		AF99D9792AA8F74700D14130 /* Word_LadderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99D9782AA8F74700D14130 /* Word_LadderTests.swift */; };
+		AF99D9832AA8F74700D14130 /* Word_LadderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99D9822AA8F74700D14130 /* Word_LadderUITests.swift */; };
+		AF99D9852AA8F74700D14130 /* Word_LadderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99D9842AA8F74700D14130 /* Word_LadderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF99D9752AA8F74700D14130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF99D95B2AA8F74600D14130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF99D9622AA8F74600D14130;
+			remoteInfo = "Word Ladder";
+		};
+		AF99D97F2AA8F74700D14130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF99D95B2AA8F74600D14130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF99D9622AA8F74600D14130;
+			remoteInfo = "Word Ladder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF99D9632AA8F74600D14130 /* Word Ladder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Ladder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF99D9662AA8F74600D14130 /* Word_LadderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_LadderApp.swift; sourceTree = "<group>"; };
+		AF99D9682AA8F74600D14130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF99D96A2AA8F74700D14130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF99D96C2AA8F74700D14130 /* Word_Ladder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Word_Ladder.entitlements; sourceTree = "<group>"; };
+		AF99D96E2AA8F74700D14130 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF99D9742AA8F74700D14130 /* Word LadderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word LadderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF99D9782AA8F74700D14130 /* Word_LadderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_LadderTests.swift; sourceTree = "<group>"; };
+		AF99D97E2AA8F74700D14130 /* Word LadderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word LadderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF99D9822AA8F74700D14130 /* Word_LadderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_LadderUITests.swift; sourceTree = "<group>"; };
+		AF99D9842AA8F74700D14130 /* Word_LadderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_LadderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF99D9602AA8F74600D14130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF99D9712AA8F74700D14130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF99D97B2AA8F74700D14130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF99D95A2AA8F74600D14130 = {
+			isa = PBXGroup;
+			children = (
+				AF99D9652AA8F74600D14130 /* Word Ladder */,
+				AF99D9772AA8F74700D14130 /* Word LadderTests */,
+				AF99D9812AA8F74700D14130 /* Word LadderUITests */,
+				AF99D9642AA8F74600D14130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF99D9642AA8F74600D14130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF99D9632AA8F74600D14130 /* Word Ladder.app */,
+				AF99D9742AA8F74700D14130 /* Word LadderTests.xctest */,
+				AF99D97E2AA8F74700D14130 /* Word LadderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF99D9652AA8F74600D14130 /* Word Ladder */ = {
+			isa = PBXGroup;
+			children = (
+				AF99D9662AA8F74600D14130 /* Word_LadderApp.swift */,
+				AF99D9682AA8F74600D14130 /* ContentView.swift */,
+				AF99D96A2AA8F74700D14130 /* Assets.xcassets */,
+				AF99D96C2AA8F74700D14130 /* Word_Ladder.entitlements */,
+				AF99D96D2AA8F74700D14130 /* Preview Content */,
+			);
+			path = "Word Ladder";
+			sourceTree = "<group>";
+		};
+		AF99D96D2AA8F74700D14130 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF99D96E2AA8F74700D14130 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF99D9772AA8F74700D14130 /* Word LadderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF99D9782AA8F74700D14130 /* Word_LadderTests.swift */,
+			);
+			path = "Word LadderTests";
+			sourceTree = "<group>";
+		};
+		AF99D9812AA8F74700D14130 /* Word LadderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF99D9822AA8F74700D14130 /* Word_LadderUITests.swift */,
+				AF99D9842AA8F74700D14130 /* Word_LadderUITestsLaunchTests.swift */,
+			);
+			path = "Word LadderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF99D9622AA8F74600D14130 /* Word Ladder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF99D9882AA8F74700D14130 /* Build configuration list for PBXNativeTarget "Word Ladder" */;
+			buildPhases = (
+				AF99D95F2AA8F74600D14130 /* Sources */,
+				AF99D9602AA8F74600D14130 /* Frameworks */,
+				AF99D9612AA8F74600D14130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word Ladder";
+			productName = "Word Ladder";
+			productReference = AF99D9632AA8F74600D14130 /* Word Ladder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF99D9732AA8F74700D14130 /* Word LadderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF99D98B2AA8F74700D14130 /* Build configuration list for PBXNativeTarget "Word LadderTests" */;
+			buildPhases = (
+				AF99D9702AA8F74700D14130 /* Sources */,
+				AF99D9712AA8F74700D14130 /* Frameworks */,
+				AF99D9722AA8F74700D14130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF99D9762AA8F74700D14130 /* PBXTargetDependency */,
+			);
+			name = "Word LadderTests";
+			productName = "Word LadderTests";
+			productReference = AF99D9742AA8F74700D14130 /* Word LadderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF99D97D2AA8F74700D14130 /* Word LadderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF99D98E2AA8F74700D14130 /* Build configuration list for PBXNativeTarget "Word LadderUITests" */;
+			buildPhases = (
+				AF99D97A2AA8F74700D14130 /* Sources */,
+				AF99D97B2AA8F74700D14130 /* Frameworks */,
+				AF99D97C2AA8F74700D14130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF99D9802AA8F74700D14130 /* PBXTargetDependency */,
+			);
+			name = "Word LadderUITests";
+			productName = "Word LadderUITests";
+			productReference = AF99D97E2AA8F74700D14130 /* Word LadderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF99D95B2AA8F74600D14130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AF99D9622AA8F74600D14130 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AF99D9732AA8F74700D14130 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AF99D9622AA8F74600D14130;
+					};
+					AF99D97D2AA8F74700D14130 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AF99D9622AA8F74600D14130;
+					};
+				};
+			};
+			buildConfigurationList = AF99D95E2AA8F74600D14130 /* Build configuration list for PBXProject "Word Ladder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF99D95A2AA8F74600D14130;
+			productRefGroup = AF99D9642AA8F74600D14130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF99D9622AA8F74600D14130 /* Word Ladder */,
+				AF99D9732AA8F74700D14130 /* Word LadderTests */,
+				AF99D97D2AA8F74700D14130 /* Word LadderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF99D9612AA8F74600D14130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF99D96F2AA8F74700D14130 /* Preview Assets.xcassets in Resources */,
+				AF99D96B2AA8F74700D14130 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF99D9722AA8F74700D14130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF99D97C2AA8F74700D14130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF99D95F2AA8F74600D14130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF99D9692AA8F74600D14130 /* ContentView.swift in Sources */,
+				AF99D9672AA8F74600D14130 /* Word_LadderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF99D9702AA8F74700D14130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF99D9792AA8F74700D14130 /* Word_LadderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF99D97A2AA8F74700D14130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF99D9852AA8F74700D14130 /* Word_LadderUITestsLaunchTests.swift in Sources */,
+				AF99D9832AA8F74700D14130 /* Word_LadderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF99D9762AA8F74700D14130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF99D9622AA8F74600D14130 /* Word Ladder */;
+			targetProxy = AF99D9752AA8F74700D14130 /* PBXContainerItemProxy */;
+		};
+		AF99D9802AA8F74700D14130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF99D9622AA8F74600D14130 /* Word Ladder */;
+			targetProxy = AF99D97F2AA8F74700D14130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF99D9862AA8F74700D14130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF99D9872AA8F74700D14130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AF99D9892AA8F74700D14130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Word Ladder/Word_Ladder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Word Ladder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Club.Word-Ladder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF99D98A2AA8F74700D14130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Word Ladder/Word_Ladder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Word Ladder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Club.Word-Ladder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF99D98C2AA8F74700D14130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Club.Word-LadderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Ladder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Word Ladder";
+			};
+			name = Debug;
+		};
+		AF99D98D2AA8F74700D14130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Club.Word-LadderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Ladder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Word Ladder";
+			};
+			name = Release;
+		};
+		AF99D98F2AA8F74700D14130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Club.Word-LadderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Word Ladder";
+			};
+			name = Debug;
+		};
+		AF99D9902AA8F74700D14130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Club.Word-LadderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Word Ladder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF99D95E2AA8F74600D14130 /* Build configuration list for PBXProject "Word Ladder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF99D9862AA8F74700D14130 /* Debug */,
+				AF99D9872AA8F74700D14130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF99D9882AA8F74700D14130 /* Build configuration list for PBXNativeTarget "Word Ladder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF99D9892AA8F74700D14130 /* Debug */,
+				AF99D98A2AA8F74700D14130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF99D98B2AA8F74700D14130 /* Build configuration list for PBXNativeTarget "Word LadderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF99D98C2AA8F74700D14130 /* Debug */,
+				AF99D98D2AA8F74700D14130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF99D98E2AA8F74700D14130 /* Build configuration list for PBXNativeTarget "Word LadderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF99D98F2AA8F74700D14130 /* Debug */,
+				AF99D9902AA8F74700D14130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF99D95B2AA8F74600D14130 /* Project object */;
+}
