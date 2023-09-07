@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		958C09962AAA2744008E8072 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 958C09952AAA2744008E8072 /* GoogleService-Info.plist */; };
+		958C09992AAA2EA3008E8072 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 958C09982AAA2EA3008E8072 /* FirebaseDatabase */; };
+		958C099B2AAA2EA3008E8072 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 958C099A2AAA2EA3008E8072 /* FirebaseDatabaseSwift */; };
+		958C099D2AAA2EA3008E8072 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 958C099C2AAA2EA3008E8072 /* FirebaseFirestore */; };
+		958C099F2AAA2EA3008E8072 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 958C099E2AAA2EA3008E8072 /* FirebaseFirestoreSwift */; };
 		AF99D9672AA8F74600D14130 /* Word_LadderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99D9662AA8F74600D14130 /* Word_LadderApp.swift */; };
 		AF99D9692AA8F74600D14130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99D9682AA8F74600D14130 /* ContentView.swift */; };
 		AF99D96B2AA8F74700D14130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF99D96A2AA8F74700D14130 /* Assets.xcassets */; };
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		958C09952AAA2744008E8072 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AF99D9632AA8F74600D14130 /* Word Ladder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Ladder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF99D9662AA8F74600D14130 /* Word_LadderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_LadderApp.swift; sourceTree = "<group>"; };
 		AF99D9682AA8F74600D14130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958C099B2AAA2EA3008E8072 /* FirebaseDatabaseSwift in Frameworks */,
+				958C09992AAA2EA3008E8072 /* FirebaseDatabase in Frameworks */,
+				958C099D2AAA2EA3008E8072 /* FirebaseFirestore in Frameworks */,
+				958C099F2AAA2EA3008E8072 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,7 @@
 			children = (
 				AF99D9662AA8F74600D14130 /* Word_LadderApp.swift */,
 				AF99D9682AA8F74600D14130 /* ContentView.swift */,
+				958C09952AAA2744008E8072 /* GoogleService-Info.plist */,
 				AF99D96A2AA8F74700D14130 /* Assets.xcassets */,
 				AF99D96C2AA8F74700D14130 /* Word_Ladder.entitlements */,
 				AF99D96D2AA8F74700D14130 /* Preview Content */,
@@ -145,6 +156,12 @@
 			dependencies = (
 			);
 			name = "Word Ladder";
+			packageProductDependencies = (
+				958C09982AAA2EA3008E8072 /* FirebaseDatabase */,
+				958C099A2AAA2EA3008E8072 /* FirebaseDatabaseSwift */,
+				958C099C2AAA2EA3008E8072 /* FirebaseFirestore */,
+				958C099E2AAA2EA3008E8072 /* FirebaseFirestoreSwift */,
+			);
 			productName = "Word Ladder";
 			productReference = AF99D9632AA8F74600D14130 /* Word Ladder.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +234,9 @@
 				Base,
 			);
 			mainGroup = AF99D95A2AA8F74600D14130;
+			packageReferences = (
+				958C09972AAA2EA3008E8072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AF99D9642AA8F74600D14130 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +255,7 @@
 			files = (
 				AF99D96F2AA8F74700D14130 /* Preview Assets.xcassets in Resources */,
 				AF99D96B2AA8F74700D14130 /* Assets.xcassets in Resources */,
+				958C09962AAA2744008E8072 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +625,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		958C09972AAA2EA3008E8072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		958C09982AAA2EA3008E8072 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 958C09972AAA2EA3008E8072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		958C099A2AAA2EA3008E8072 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 958C09972AAA2EA3008E8072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		958C099C2AAA2EA3008E8072 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 958C09972AAA2EA3008E8072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		958C099E2AAA2EA3008E8072 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 958C09972AAA2EA3008E8072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF99D95B2AA8F74600D14130 /* Project object */;
 }
