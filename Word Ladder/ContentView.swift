@@ -16,6 +16,9 @@ struct ContentView: View {
             Text("Hello, World Ladder!")
         }
         .padding()
+        VStack {
+            UserAnswerView()
+        }
     }
 }
 
