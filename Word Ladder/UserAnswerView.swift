@@ -69,7 +69,9 @@ struct UserAnswerView: View {
                 
                 //Enter button
                 Button {
-                    countDownFrom = 10
+                    if !text.isEmpty {
+                        countDownFrom = 10
+                    }
                     answer = text
                     text = ""
                 } label: {
