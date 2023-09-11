@@ -32,55 +32,61 @@ struct UserAnswerView: View {
         }
     }
     var body: some View {
-        VStack {
-            ZStack {
-                Rectangle()
-                    .fill(Color.white)
-                
-                VStack {
-                    Text("\(answer)")
-                }
-            }
-            
-            Spacer()
-            HStack {
-                //Timer
-                Text("\(countDownFrom)")
-                    .onReceive(timer) {
-                        _ in
-                        if countDownFrom > 0 && timerRunning {
-                            countDownFrom -= 1
-                        } else {
-                            timerRunning = false
-                        }
+        NavigationStack {
+            VStack {
+                ZStack {
+                    Rectangle()
+                        .fill(Color.white)
+                    
+                    VStack {
+                        Text("\(answer)")
+                            .font(.system(size: 25, weight: .heavy, design: .rounded))
                     }
-                    .font(.system(size: 30, weight: .bold))
-                    .padding()
-                
-                //Answer TextField
-                VStack(alignment: .leading, spacing: 10) {
-                    TextField("Enter a word", text: $text)
-                        .padding(10)
-                        .background(Color.gray.opacity(0.15))
-                        .cornerRadius(20)
-                        //for wrong input
-                        .border(.red, width: CGFloat(invalidWord))
                 }
-                
-                //Enter button
-                Button {
-                    countDownFrom = 10
-                    answer = text
-                    text = ""
-                } label: {
-                    answerButton()
+            
+                HStack {
+                    //Timer
+                    Text("\(countDownFrom)")
+                        .onReceive(timer) {
+                            _ in
+                            if countDownFrom > 0 && timerRunning {
+                                countDownFrom -= 1
+                            } else {
+                                timerRunning = false
+                            }
+                        }
+                        .font(.system(size: 30, weight: .bold))
+                        .padding()
+                    
+                    //Answer TextField
+                    VStack(alignment: .leading, spacing: 10) {
+                        TextField("Enter a word", text: $text)
+                            .padding(10)
+                            .background(Color.gray.opacity(0.15))
+                            .cornerRadius(20)
+                            //for wrong input
+                            .border(.red, width: CGFloat(invalidWord))
+                    }
+                    
+                    //Enter button
+                    Button {
+                        if !text.isEmpty {
+                            countDownFrom = 10
+                            answer = text
+                            text = ""
+                        }
+                    } label: {
+                        answerButton()
+                    }
+                    .padding()
+                    
                 }
                 .padding()
-                
             }
-            .padding()
+            NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                Text("Main")
+            }
         }
-        
     }
 }
 

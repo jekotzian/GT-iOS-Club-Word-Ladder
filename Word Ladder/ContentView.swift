@@ -8,16 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var userViewModel: UserAuthViewModel
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, World Ladder!")
-        }
-        .padding()
-        VStack {
-            UserAnswerView()
+        Group {
+            if userViewModel.userSession != nil {
+                UserProfileView()
+            } else {
+                HomePageView()
+            }
         }
     }
 }
@@ -27,3 +25,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

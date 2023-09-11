@@ -9,6 +9,7 @@ import SwiftUI
 import Firebase
 @main
 struct Word_LadderApp: App {
+    @StateObject var userAuthVideModel = UserAuthViewModel()
     init() {
         FirebaseApp.configure()
         //print("--Configured Firebase--")
@@ -16,6 +17,7 @@ struct Word_LadderApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(userAuthVideModel)
         }
     }
 }
