@@ -14,11 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, World Ladder!")
+            VStack {
+                UserAnswerView()
+            }
         }
         .padding()
-        VStack {
-            UserAnswerView()
-        }
+        
     }
 }
 
