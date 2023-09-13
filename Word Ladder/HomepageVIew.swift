@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomepageView: View {
+struct HomepageVIew: View {
     @State private var username : String = ""
     var body: some View {
         NavigationStack {
@@ -61,7 +61,7 @@ struct HomepageView: View {
     }
 }
 
-struct HomepageView_Previews: PreviewProvider {
+struct HomepageVIew_Previews: PreviewProvider {
     static var previews: some View {
         HomepageView()
     }
