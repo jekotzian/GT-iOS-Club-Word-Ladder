@@ -63,6 +63,6 @@ struct HomepageVIew: View {
 
 struct HomepageVIew_Previews: PreviewProvider {
     static var previews: some View {
-        HomepageView()
+        HomepageVIew()
     }
 }
