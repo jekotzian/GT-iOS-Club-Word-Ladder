@@ -1,5 +1,5 @@
 //
-//  WaitingRoomView.swift
+//  JoinPage.swift
 //  Word Ladder
 //
 //  Created by Lauren Pak on 9/13/23.
@@ -7,17 +7,16 @@
 
 import SwiftUI
 
-struct WaitingRoomView: View {
+struct JoinPage: View {
     var body: some View {
-        
         VStack {
             
-            Text("Waiting room...")
+            Text("Join a session?")
                 .font(.largeTitle)
                 .offset(y: 50)
                 .bold()
             GeometryReader { geometry in
-                    //display joiners of the game?
+                    //display available servers?
                         VStack(alignment: .leading, spacing: 10) {
                             Text("").font(.largeTitle)
                             Text("").font(.headline)
@@ -51,7 +50,7 @@ struct WaitingRoomView: View {
                 Button (action: {
                     
                 }, label: {
-                    Text("Ready")
+                    Text("Join")
                         .font(.headline)
                         .foregroundColor(.black)
                         .frame(height: 40)
@@ -68,10 +67,12 @@ struct WaitingRoomView: View {
         
         
     }
+        
+    
 }
 
-struct WaitingRoomView_Previews: PreviewProvider {
+struct JoinPage_Previews: PreviewProvider {
     static var previews: some View {
-        WaitingRoomView()
+        JoinPage()
     }
 }
