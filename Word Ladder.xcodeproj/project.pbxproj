@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40B20A572B06E98C00B7342F /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B20A562B06E98C00B7342F /* CreateProfileView.swift */; };
+		40B20A592B06E9BA00B7342F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B20A582B06E9BA00B7342F /* TimerView.swift */; };
 		95389E402B02AC740074E7CE /* GameSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95389E3F2B02AC740074E7CE /* GameSettingView.swift */; };
 		95389E422B02C8700074E7CE /* ChangePassWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95389E412B02C8700074E7CE /* ChangePassWView.swift */; };
 		958C09962AAA2744008E8072 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 958C09952AAA2744008E8072 /* GoogleService-Info.plist */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40B20A562B06E98C00B7342F /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
+		40B20A582B06E9BA00B7342F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		95389E3F2B02AC740074E7CE /* GameSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingView.swift; sourceTree = "<group>"; };
 		95389E412B02C8700074E7CE /* ChangePassWView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassWView.swift; sourceTree = "<group>"; };
 		958C09952AAA2744008E8072 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			children = (
 				AF99D9662AA8F74600D14130 /* Word_LadderApp.swift */,
 				AF99D9682AA8F74600D14130 /* ContentView.swift */,
+				40B20A562B06E98C00B7342F /* CreateProfileView.swift */,
+				40B20A582B06E9BA00B7342F /* TimerView.swift */,
 				958C09A42AAD719E008E8072 /* UserAnswerView.swift */,
 				95389E3F2B02AC740074E7CE /* GameSettingView.swift */,
 				95ED5BB62AFEACEC00849FF8 /* UserAuth */,
@@ -328,9 +334,11 @@
 			files = (
 				958C09A52AAD719E008E8072 /* UserAnswerView.swift in Sources */,
 				AF99D9692AA8F74600D14130 /* ContentView.swift in Sources */,
+				40B20A572B06E98C00B7342F /* CreateProfileView.swift in Sources */,
 				95ED5BBD2B019F3700849FF8 /* HomePageView.swift in Sources */,
 				95389E422B02C8700074E7CE /* ChangePassWView.swift in Sources */,
 				95ED5BC12B01A99400849FF8 /* UserProfileView.swift in Sources */,
+				40B20A592B06E9BA00B7342F /* TimerView.swift in Sources */,
 				95ED5BBF2B01A5F600849FF8 /* SignUpView.swift in Sources */,
 				95ED5BB42AFDB6BF00849FF8 /* User.swift in Sources */,
 				95389E402B02AC740074E7CE /* GameSettingView.swift in Sources */,

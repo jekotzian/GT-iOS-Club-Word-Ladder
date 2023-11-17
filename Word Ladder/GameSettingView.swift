@@ -75,6 +75,8 @@ struct GameSettingView: View {
     }
 }
 
-#Preview {
-    GameSettingView()
+struct GameSettingView_Preview: PreviewProvider {
+    static var previews: some View {
+        GameSettingView()
+    }
 }

@@ -22,12 +22,12 @@ struct HomePageView: View {
                         .font(Font.custom("Bungee-Regular", size: 44))
                     Text("Ladder")
                         .font(Font.custom("Bungee-Regular", size: 44))
-                    TextField("Email", text: $email).autocapitalization(.none)
+                    TextField("Email", text: $email)
                         .textFieldStyle(UserNameTextFieldStyle())
                         .padding()
                         .frame(width: 350).shadow(radius: 5, y:5)
                     
-                    SecureField("password", text: $password).autocapitalization(.none)
+                    SecureField("password", text: $password)
                         .textFieldStyle(UserNameTextFieldStyle())
                         .frame(width:320).shadow(radius: 5,y:5)
                     Button (action: {

@@ -16,9 +16,10 @@ struct SignUpView: View {
     var body: some View {
         NavigationStack {
             VStack{
-                TextField("Name", text: $name).autocapitalization(.none)
-                TextField("Email", text: $email).autocapitalization(.none)
-                TextField("Password", text: $password).autocapitalization(.none)
+                //removed jiyoon autocapitalization stuff
+                TextField("Name", text: $name)
+                TextField("Email", text: $email)
+                TextField("Password", text: $password)
                 Button {
                     //async - need to wrap in task
                     Task {
