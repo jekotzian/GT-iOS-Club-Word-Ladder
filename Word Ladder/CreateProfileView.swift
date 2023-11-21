@@ -23,7 +23,6 @@ struct CreateProfileView: View {
                 Spacer()
                 Spacer()
                 Spacer()
-                Text("JL").font(.title).fontWeight(.semibold).foregroundColor(.white).frame(width: 60, height: 60).background(Color(.systemGray)).clipShape(Circle()).onTapGesture { activeProfile = 0 }
                 ZStack {
                     Image("Ellipse 30")
                         .shadow(color: Color.gray.opacity(0.4), radius: 1, x: 1, y: 3)
